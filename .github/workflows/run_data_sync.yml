@@ -180,6 +180,10 @@ jobs:
     if: needs.sync.result == 'success' && vars.BUILD_GH_PAGES != 'false'
     name: Build and publish Github Pages
     uses: ./.github/workflows/gh-pages.yml
+    permissions:
+      pages: write
+      id-token: write
+      contents: read  # 建议加上，部署 Pages 通常需要读取代码的权限
     with:
       save_data_in_github_cache: false
       data_cache_prefix: 'track_data'
