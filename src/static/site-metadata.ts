@@ -12,7 +12,7 @@ interface ISiteMetadataResult {
 
 const getBasePath = () => {
   const baseUrl = import.meta.env.BASE_URL;
-  return baseUrl === '/' ? '' : baseUrl;
+  return baseUrl === "/" ? "" : baseUrl;
 };
 
 const data: ISiteMetadataResult = {
@@ -23,9 +23,7 @@ const data: ISiteMetadataResult = {
   description: "在路上，跑起来",
   navLinks: [
     { name: "Blog", url: "https://www.domon.cn" },
-    { name: "Moment", url: "https://t.me/s/hualihuawai" },
-    { name: "Memos", url: "https://memos.domon.cn" },
-    { name: "Link-Exchange", url: "https://domon.cn/link-exchange/" },
+    { name: "Summary", url: `${getBasePath()}/summary` },
     { name: "About", url: "https://www.domon.cn/about" },
   ],
 };
