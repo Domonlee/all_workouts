@@ -16,24 +16,16 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Workouts Map',
-  siteUrl: 'https://zhaohongxuan.github.io',
-  logo: 'https://avatars.githubusercontent.com/u/8613196?v=4',
-  description: 'Personal site and blog',
-  keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
+  siteTitle: 'Dennis Running Page',
+  siteUrl: 'https://run.domon.cn',
+  logo: 'https://domon.cn/content/images/2020/06/avatar_shiba-2.jpg',
+  description: '在路上，跑起来',
   navLinks: [
-    {
-      name: 'Strava',
-      url: 'https://www.strava.com/athletes/hank_zhao',
-    },
-    {
-      name: 'Summary',
-      url: `${getBasePath()}/summary`,
-    },
-    {
-      name: 'Blog',
-      url: 'https://zhaohongxuan.github.io',
-    },
+    { name: 'Blog', url: 'https://www.domon.cn' },
+    { name: 'Moment',url: 'https://t.me/s/hualihuawai' },
+    { name: 'Memos', url: 'https://memos.domon.cn' },
+    { name: 'Link-Exchange',url: 'https://domon.cn/link-exchange/' },
+    { name: 'About',url: 'https://www.domon.cn/about' },
   ],
 };
 
