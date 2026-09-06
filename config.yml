@@ -16,39 +16,39 @@ theme: dark
 
 goals:
   all:
-    yearly: 2500
-    monthly: 150
-    weekly: 35
+    yearly: 900
+    monthly: 120
+    weekly: 30
     unit: distance
 
   Run:
-    yearly: 1200
+    yearly: 900
     monthly: 100
     weekly: 25
     unit: distance
 
   Ride:
-    yearly: 1000
-    monthly: 80
-    weekly: 20
+    yearly: 200
+    monthly: 20
+    weekly: 5
     unit: distance
 
   Hike:
-    yearly: 300
+    yearly: 100
     monthly: 25
     weekly: 6
     unit: distance
 
   Swim:
-    yearly: 100
-    monthly: 10
-    weekly: 3
+    yearly: 0
+    monthly: 0
+    weekly: 0
     unit: distance
 
   Gym:
-    yearly: 6000   # 100 小时
-    monthly: 600   # 10 小时
-    weekly: 150    # 2.5 小时
+    yearly: 300   # 100 小时
+    monthly: 60   # 10 小时
+    weekly: 15    # 2.5 小时
     unit: time
 
 # ── 打卡模块 ──────────────────────────────────────────────────────────────────
