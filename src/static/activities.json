@@ -17982,5 +17982,21 @@
 "elevation_gain": 9.0,
 "source": "Garmin Connect",
 "streak": 1
+},
+{
+"run_id": 1789600000000,
+"name": "\u897f\u5b89\u5e02 - \u57fa\u7840\u8bad\u7ec3",
+"distance": 4824.504779766504,
+"moving_time": "0:33:18",
+"type": "Run",
+"start_date": "2026-09-16 23:06:40",
+"start_date_local": "2026-09-17 07:06:40",
+"location_country": "\u6e05\u51c9\u5bfa\u8def, \u675c\u57ce\u8857\u9053, \u96c1\u5854\u533a, \u897f\u5b89\u5e02, \u9655\u897f\u7701, 710062, \u4e2d\u56fd",
+"summary_polyline": "}{roEwwzwSaAvES~JyBl\\_@b@}KACnBpXTh`@zCX^G|GHqGs@i@a`@{C_QQ`EU`BkPfA{Wt@OXy@dBqWrBs@OwHJpEgA@",
+"average_heartrate": 144.0,
+"average_speed": 2.4146670569401922,
+"elevation_gain": 14.0,
+"source": "Garmin Connect",
+"streak": 1
 }
 ]
